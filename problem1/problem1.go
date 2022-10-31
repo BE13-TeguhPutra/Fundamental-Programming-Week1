@@ -12,11 +12,11 @@ func DrawXYZ(n int) string {
 	}
 	for i := 1; i <= test; i++ {
 		if i%3 == 0 {
-			bobot += "X"
+			bobot += "X "
 		} else if i%2 == 0 {
-			bobot += "Z"
+			bobot += "Z "
 		} else {
-			bobot += "Y"
+			bobot += "Y "
 		}
 		if i%n == 0 {
 			bobot += "\n"
